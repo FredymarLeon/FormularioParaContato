@@ -1,3 +1,10 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
 #titulo{
     font-family: sans-serif;
     color: rebeccapurple;
@@ -15,6 +22,15 @@
     text-align: justify;
 }
 
+body{
+font-family: sans-serif;
+color: purple;
+background-color: #f0f8ff;
+margin-left: 36px;
+margin-top: 2px;
+justify-content: center;
+min-height: 100px;
+}
 
 imput, select, textarea, button{
     border-radius: 5px;
@@ -66,7 +82,6 @@ imput, select, textarea, button{
     text-shadow: none
 
 }
-
 section{
     display: flex;
     align-items: center;
@@ -77,22 +92,3 @@ section{
     width: 500px;
     box-shadow: none;
 }
-
-.contacto-container {
-    width: 80%;
-  }
-
-  .contacto-content {
-    flex-direction: column;
-  }
-
-  .contacto-informacion {
-    width: 100%;
-  }
-
-  .formulario-container {
-    width: 100%;
-    margin-top: 32px;
-    padding: 12px;
-    border-radius: 16px;
-  }
