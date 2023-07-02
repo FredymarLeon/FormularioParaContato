@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario para Contato</title>
+</head>
+<body>
+    
+    <section>
+
+         <h1 id="titulo">Contato</h1>
+            <p id="paragrafo">Deseja entrar em contato comigo?</p>
+            <p id="paragrafo">Preencha o formulario e entrarei em contato o mais rápido possível.</p>
+        
+        <form>
+            <div class="dado">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off" required> 
+            </div>
+            <div class="dado">
+                <label for="e-mail"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required>
+            </div>
+            <div class="dado">
+                <label><strong>Mensagem</strong></label>
+                <textarea rows="10" style="width: 26em" name="Mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
